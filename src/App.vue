@@ -1,7 +1,10 @@
 <template>
-  <div>
-    <div id="screenshot-container">
+  <div style="background-color: lightblue; font-family: monospace;">
+    <div id="screenshot-container" style="display: flex; justify-content: center; padding-top: 38vh;">
       <button @click="captureScreenshot">Capture Screenshot</button>
+    </div>
+    <div style="display: flex; justify-content: center; height: 55vh;">
+      <h1>Open the console (dev tools), to check the upload status</h1>
     </div>
   </div>
 </template>
@@ -64,8 +67,6 @@ const captureScreenshot = async () => {
 <style scoped>
 #screenshot-container {
   position: relative;
-  width: 500px;
-  height: 300px;
   border: 1px solid #ccc;
 }
 
