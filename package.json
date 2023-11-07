@@ -8,6 +8,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "firebase": "^10.5.2",
+    "html2canvas": "^1.4.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
